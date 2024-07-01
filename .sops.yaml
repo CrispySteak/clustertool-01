@@ -1,0 +1,15 @@
+## Do not edit between this and DO NOT REMOVE
+
+creation_rules:
+  - path_regex: ^kubernetes.*values.ya?ml$
+    age: age175yv48kqxwjp4qlqz62pzmhfve30px5jcljnfzv2tltnckvs8pvq396vwk
+    encrypted_regex: "((?i)(displayname|email|pass|ca|id|bootstraptoken|secretboxencryptionsecret|secrets|secrets|password|cert|secret($|[^N])|key|token|^data$|^stringData))"
+  - path_regex: ^kubernetes.*\.secret.ya?ml
+    age: age175yv48kqxwjp4qlqz62pzmhfve30px5jcljnfzv2tltnckvs8pvq396vwk
+    encrypted_regex: "((?i)(displayname|email|pass|ca|id|bootstraptoken|secretboxencryptionsecret|secrets|secrets|password|cert|secret($|[^N])|key|token|^data$|^stringData))"
+  - path_regex: talenv.yaml
+    age: age175yv48kqxwjp4qlqz62pzmhfve30px5jcljnfzv2tltnckvs8pvq396vwk
+  - path_regex: talsecret.yaml
+    age: age175yv48kqxwjp4qlqz62pzmhfve30px5jcljnfzv2tltnckvs8pvq396vwk
+
+## DO NOT REMOVE: Personal setting go under this line
